@@ -16,6 +16,17 @@ You need nodejs 16.15 to run the following command to install the dependencies:
 npm install
 ```
 
+Use the following command to build the project:
+```
+npm run build
+```
+
+## Usage
+Run the following command with arguments to passing to the validator:
+```
+node index.js <arg>
+```
+
 ## Test Execution
 To run the tests, you need to use the following commands after setup:
 ```
