@@ -1,0 +1,33 @@
+{
+  "name": "ssn-validator",
+  "version": "1.0.0",
+  "description": "Project to validate a social security number using TDD.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weabreu16/ssn-validator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weabreu16/ssn-validator/issues"
+  },
+  "homepage": "https://github.com/weabreu16/ssn-validator#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.7.4"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "transform": {
+      "ts": "ts-jest"
+    }
+  }
+}
